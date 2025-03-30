@@ -1,0 +1,96 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.ignoreWords": [
+    "stepfunctions",
+    "takashi",
+    "rosbag",
+    "datahub",
+    "webauto",
+    "datasearch",
+    "dify",
+    "interactor"
+  ],
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "cline.chromeExecutablePath": "",
+  "cline.enableCheckpoints": false,
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "githubPullRequests.pullBranch": "never",
+  "go.formatTool": "goimports",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.lintTool": "golangci-lint",
+  "go.testOnSave": true,
+  "go.toolsManagement.autoUpdate": true,
+  "inlineChat.finishOnType": true,
+  "inlineChat.lineEmptyHint": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.indexing": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "pythonTestExplorer.outputs.showOutputsOnRun": true,
+  "search.exclude": {
+    "**/.aws-sam": true,
+    "**/.coverage": true,
+    "**/.mypy_cache": true
+  },
+  "terraform.codelens.referenceCount": true,
+  "workbench.colorTheme": "Default Dark Modern",
+  "yaml.customTags": [
+    "!Ref",
+    "!Sub scalar",
+    "!Sub sequence",
+    "!Join sequence",
+    "!FindInMap sequence",
+    "!GetAtt scalar",
+    "!GetAtt sequence",
+    "!Base64 mapping",
+    "!GetAZs",
+    "!Select scalar",
+    "!Select sequence",
+    "!Split sequence",
+    "!ImportValue",
+    "!Condition",
+    "!Equals sequence",
+    "!And",
+    "!If",
+    "!Not",
+    "!Or",
+    "!And sequence",
+    "!If sequence",
+    "!Not sequence",
+    "!Equals",
+    "!Or sequence",
+    "!FindInMap",
+    "!Base64",
+    "!Join",
+    "!Cidr",
+    "!Sub",
+    "!GetAtt",
+    "!ImportValue sequence",
+    "!Select",
+    "!Split"
+  ]
+}

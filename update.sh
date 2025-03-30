@@ -46,3 +46,6 @@ while read extension; do
   [[ -z "$extension" || "$extension" =~ ^#.* ]] && continue
   cursor --install-extension "$extension"
 done < "$(pwd)/vscode/cursor-only-extensions.txt"
+
+ln -sf $(pwd)/vscode/settings.json ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json
+ln -sf $(pwd)/vscode/settings.json ~/Library/Application\ Support/Cursor/User/settings.json
