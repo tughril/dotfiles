@@ -21,3 +21,8 @@ gh completion -s zsh > ~/.zfunc/_gh
 # starship
 ln -sf $(pwd)/starship.toml ~/.config/starship.toml
 
+# git
+mkdir -p ~/.config/git
+curl -sS https://raw.githubusercontent.com/github/gitignore/main/{\
+Global/macOS.gitignore,\
+} > ~/.config/git/ignore
