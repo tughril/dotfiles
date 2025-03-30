@@ -1,6 +1,3 @@
-# manager
-brew "mise"
-
 # common
 brew "make"
 brew "git"
