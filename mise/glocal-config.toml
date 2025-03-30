@@ -1,0 +1,58 @@
+[tools]
+go = "latest"
+node = "lts"
+deno = "latest"
+rust = "latest"
+dotnet = "8"
+python = "latest" # for other tools
+ruby = "latest"
+
+biome = "latest"
+"npm:pnpm" = "latest"
+"npm:prettier" = "latest"
+
+uv = "latest"
+"pipx:ruff" = "latest"
+"pipx:bandit" = "latest"
+"pipx:poetry" = "latest"
+
+aws-cli = "latest"
+aws-sam = "latest"
+azure = "latest"
+gcloud = "latest"
+
+"gem:cfn-nag" = "latest"
+"pipx:cfn-lint" = "latest"
+"pipx:sceptre" = "latest"
+
+terraform = "latest"
+terragrunt = "latest"
+terraform-docs = "latest"
+tflint = "latest"
+tfsec = "latest"
+
+pulumi = "latest"
+
+psqldef = "latest"
+mssqldef = "latest"
+
+github-cli = "latest"
+ghq = "latest"
+actionlint = "latest"
+
+hadolint = "latest"
+
+peco = "latest"
+# TODO make = "latest"
+just = "latest"
+vim = "latest"
+dasel = "latest"
+"npm:git-trim" = "latest"
+"npm:jsonata" = "latest"
+"pipx:httpie" = "latest"
+yq = "latest"
+go-jsonnet = "latest"
+"pipx:awsume" = "latest"
+
+[settings]
+experimental = true
