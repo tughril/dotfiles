@@ -52,7 +52,9 @@ dasel = "latest"
 "pipx:httpie" = "latest"
 yq = "latest"
 go-jsonnet = "latest"
-"pipx:awsume" = "latest"
+"pipx:awsume" = { version = "latest", uvx_args = "--with awsume-1password-plugin" }
+"pipx:aws-sso-util" = "latest"
+"npm:cspell" = "latest"
 
 [settings]
 experimental = true
