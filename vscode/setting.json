@@ -1,96 +1,93 @@
 {
-    "files.insertFinalNewline": true,
-    "[python]": {
-      "editor.defaultFormatter": "charliermarsh.ruff"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[yaml]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit",
-      "quickfix.biome": "explicit",
-      "source.organizeImports.biome": "explicit"
-    },
-    "cSpell.ignoreWords": [
-      "stepfunctions",
-      "takashi",
-      "rosbag",
-      "datahub",
-      "webauto",
-      "datasearch",
-      "dify",
-      "interactor"
-    ],
-    "yaml.customTags": [
-      "!Ref",
-      "!Sub scalar",
-      "!Sub sequence",
-      "!Join sequence",
-      "!FindInMap sequence",
-      "!GetAtt scalar",
-      "!GetAtt sequence",
-      "!Base64 mapping",
-      "!GetAZs",
-      "!Select scalar",
-      "!Select sequence",
-      "!Split sequence",
-      "!ImportValue",
-      "!Condition",
-      "!Equals sequence",
-      "!And",
-      "!If",
-      "!Not",
-      "!Or",
-      "!And sequence",
-      "!If sequence",
-      "!Not sequence",
-      "!Equals",
-      "!Or sequence",
-      "!FindInMap",
-      "!Base64",
-      "!Join",
-      "!Cidr",
-      "!Sub",
-      "!GetAtt",
-      "!ImportValue sequence",
-      "!Select",
-      "!Split"
-    ],
-    "go.toolsManagement.autoUpdate": true,
-    "go.lintTool": "golangci-lint",
-    "go.lintFlags": [
-      "--fast"
-    ],
-    "go.formatTool": "goimports",
-    "go.testOnSave": true,
-    "chat.editing.alwaysSaveWithGeneratedChanges": true,
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "python.analysis.indexing": true,
-    "python.analysis.autoImportCompletions": true,
-    "search.exclude": {
-      "**/.aws-sam": true,
-      "**/.coverage": true,
-      "**/.mypy_cache": true
-    },
-    "cline.enableCheckpoints": false,
-    "cline.chromeExecutablePath": "",
-    "pythonTestExplorer.outputs.showOutputsOnRun": true,
-    "githubPullRequests.pullBranch": "never",
-    "terraform.codelens.referenceCount": true,
-    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
-    "inlineChat.finishOnType": true,
-    "inlineChat.lineEmptyHint": true
-  }
-  
+  "files.insertFinalNewline": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "cSpell.ignoreWords": [
+    "stepfunctions",
+    "takashi",
+    "rosbag",
+    "datahub",
+    "webauto",
+    "datasearch",
+    "dify",
+    "interactor"
+  ],
+  "yaml.customTags": [
+    "!Ref",
+    "!Sub scalar",
+    "!Sub sequence",
+    "!Join sequence",
+    "!FindInMap sequence",
+    "!GetAtt scalar",
+    "!GetAtt sequence",
+    "!Base64 mapping",
+    "!GetAZs",
+    "!Select scalar",
+    "!Select sequence",
+    "!Split sequence",
+    "!ImportValue",
+    "!Condition",
+    "!Equals sequence",
+    "!And",
+    "!If",
+    "!Not",
+    "!Or",
+    "!And sequence",
+    "!If sequence",
+    "!Not sequence",
+    "!Equals",
+    "!Or sequence",
+    "!FindInMap",
+    "!Base64",
+    "!Join",
+    "!Cidr",
+    "!Sub",
+    "!GetAtt",
+    "!ImportValue sequence",
+    "!Select",
+    "!Split"
+  ],
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"],
+  "go.formatTool": "goimports",
+  "go.testOnSave": true,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.indexing": true,
+  "python.analysis.autoImportCompletions": true,
+  "search.exclude": {
+    "**/.aws-sam": true,
+    "**/.coverage": true,
+    "**/.mypy_cache": true
+  },
+  "cline.enableCheckpoints": false,
+  "cline.chromeExecutablePath": "",
+  "pythonTestExplorer.outputs.showOutputsOnRun": true,
+  "githubPullRequests.pullBranch": "never",
+  "terraform.codelens.referenceCount": true,
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "inlineChat.finishOnType": true,
+  "inlineChat.lineEmptyHint": true
+}

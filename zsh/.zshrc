@@ -4,6 +4,7 @@ eval "$(starship init zsh)"
 alias g="git"
 alias awsume="source awsume"
 alias awsume-list="awsume -l"
+alias code="code-insiders"
 
 export PATH=$PATH:~/.bin
 
@@ -43,3 +44,7 @@ _awsume() {
 complete -F _awsume awsume
 complete -o nospace -C terraform terraform
 complete -o nospace -C terragrunt terragrunt
+
+export HISTFILE=${HOME}/.zsh_history
+export HISTSIZE=1000
+export SAVEHIST=100000
