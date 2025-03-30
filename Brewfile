@@ -8,9 +8,11 @@ brew "telnet"
 brew "tree"
 brew "jq"
 
-# zsh
+# sh
 brew "zsh"
 brew "zsh-completions"
+brew "starship"
+cask "font-hack-nerd-font"
 
 # infra
 # brew "tfnotify"
