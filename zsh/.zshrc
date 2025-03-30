@@ -1,5 +1,7 @@
 eval "$(mise activate zsh)"
+eval "$(starship init zsh)"
 
+alias g="git"
 alias awsume="source awsume"
 alias awsume-list="awsume -l"
 
@@ -11,10 +13,6 @@ else
   echo "gh or gh-copilot is not installed. Skipping copilot alias."
 fi
 
-# TODO
-#compdef awsume
-# _arguments "*: :($(awsume-autocomplete))"
-
 function peco-ghq () {
   local selected_dir=$(ghq list -p | peco --prompt="repositories >" --query "$LBUFFER")
   if [ -n "$selected_dir" ]; then
@@ -25,3 +23,23 @@ function peco-ghq () {
 }
 zle -N peco-ghq
 bindkey '^]' peco-ghq
+
+# completions
+fpath+=~/.zfunc
+autoload bashcompinit && bashcompinit # TODO: autoload -U +X bashcompinitのようなオプションがあるので調査
+autoload -Uz compinit && compinit
+complete -C aws_completer aws
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
+_awsume() {
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    opts=$(awsume-autocomplete)
+    COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+    return 0
+}
+complete -F _awsume awsume
+complete -o nospace -C terraform terraform
+complete -o nospace -C terragrunt terragrunt

@@ -28,6 +28,7 @@ gcloud = "latest"
 terraform = "latest"
 terragrunt = "latest"
 terraform-docs = "latest"
+terraformer = "latest"
 tflint = "latest"
 tfsec = "latest"
 

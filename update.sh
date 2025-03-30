@@ -14,6 +14,9 @@ brew bundle
 
 # zsh
 ln -sf $(pwd)/zsh/.zshrc ~/.zshrc
+mkdir -p ~/.zfunc
+poetry completions zsh > ~/.zfunc/_poetry
+gh completion -s zsh > ~/.zfunc/_gh
 
 # starship
 ln -sf $(pwd)/starship.toml ~/.config/starship.toml
