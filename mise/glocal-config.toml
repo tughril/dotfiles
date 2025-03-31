@@ -6,6 +6,9 @@ rust = "latest"
 dotnet = "8"
 python = "latest" # for other tools
 ruby = "latest"
+java = "openjdk-21"
+
+golangci-lint = "latest"
 
 biome = "latest"
 "npm:pnpm" = "latest"
@@ -20,6 +23,9 @@ aws-cli = "latest"
 aws-sam = "latest"
 azure = "latest"
 gcloud = "latest"
+firebase = "latest"
+
+duckdb = "latest"
 
 "gem:cfn-nag" = "latest"
 "pipx:cfn-lint" = "latest"
@@ -27,6 +33,7 @@ gcloud = "latest"
 
 terraform = "latest"
 terragrunt = "latest"
+terramate = "latest"
 terraform-docs = "latest"
 terraformer = "latest"
 tflint = "latest"
@@ -43,6 +50,10 @@ actionlint = "latest"
 
 hadolint = "latest"
 
+ollama = "latest"
+
+# TODO android-sdk	 = "latest"
+
 peco = "latest"
 # TODO make = "latest"
 just = "latest"
@@ -56,6 +67,10 @@ go-jsonnet = "latest"
 "pipx:awsume" = { version = "latest", uvx_args = "--with awsume-1password-plugin" }
 "pipx:aws-sso-util" = "latest"
 "npm:cspell" = "latest"
+shellcheck = "latest"
+pre-commit = "latest"
+checkmake = "latest"
+1password = "latest"
 
 [settings]
 experimental = true
