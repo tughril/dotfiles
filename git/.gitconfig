@@ -1,0 +1,20 @@
+[ghq]
+	root = ~/ghq
+[user]
+	name = Takashi Ono
+	email = takashi.ono@okcomputer.co.jp
+[core]
+    pager = LESS='LRc --mouse' delta
+[interactive]
+    diffFilter = LESS='LRc --mouse' delta --color-only
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    dark = true      # or light = true, or omit for auto-detection
+[merge]
+    conflictstyle = zdiff3
+[credential "https://github.com"]
+	helper =
+	helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !gh auth git-credential

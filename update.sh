@@ -27,6 +27,7 @@ mkdir -p ~/.config/git
 curl -sS https://raw.githubusercontent.com/github/gitignore/main/{\
 Global/macOS.gitignore,\
 } > ~/.config/git/ignore
+ln -sf $(pwd)/git/.gitconfig ~/.gitconfig
 
 # vscode
 while read extension; do
