@@ -38,6 +38,7 @@
   "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
   "githubPullRequests.pullBranch": "never",
   "go.formatTool": "goimports",
+  "github.copilot.nextEditSuggestions.enabled": true,
   "go.lintFlags": [
     "--fast"
   ],
