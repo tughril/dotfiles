@@ -8,6 +8,7 @@ mkdir -p ~/.config
 mkdir -p ~/.config/mise
 ln -sf $(pwd)/mise/glocal-config.toml ~/.config/mise/config.toml
 mise install
+mise up
 
 # homebrew
 brew bundle

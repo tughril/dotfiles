@@ -20,7 +20,7 @@ uv = "latest"
 "pipx:poetry" = "latest"
 
 aws-cli = "latest"
-aws-sam = "latest"
+"pipx:aws-sam-cli" = "latest"
 azure = "latest"
 gcloud = "latest"
 firebase = "latest"
@@ -71,6 +71,7 @@ shellcheck = "latest"
 pre-commit = "latest"
 checkmake = "latest"
 1password = "latest"
+delta = "latest"
 
 [settings]
 experimental = true

@@ -1,5 +1,11 @@
 {
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
   "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
   "[json]": {
@@ -8,7 +14,13 @@
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "[toml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
   "[yaml]": {
@@ -35,22 +47,29 @@
   },
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
   "githubPullRequests.pullBranch": "never",
+  "go.coverOnSave": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+  },
   "go.formatTool": "goimports",
-  "github.copilot.nextEditSuggestions.enabled": true,
   "go.lintFlags": [
     "--fast"
   ],
   "go.lintTool": "golangci-lint",
   "go.testOnSave": true,
   "go.toolsManagement.autoUpdate": true,
+  "go.coverOnSingleTest": true,
   "inlineChat.finishOnType": true,
   "inlineChat.lineEmptyHint": true,
   "python.analysis.autoImportCompletions": true,
   "python.analysis.indexing": true,
   "python.testing.pytestEnabled": true,
   "python.testing.unittestEnabled": false,
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
   "pythonTestExplorer.outputs.showOutputsOnRun": true,
   "search.exclude": {
     "**/.aws-sam": true,

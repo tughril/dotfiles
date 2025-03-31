@@ -44,6 +44,7 @@ cask "onedrive"
 cask "chatgpt"
 cask "libreoffice"
 cask "adobe-acrobat-reader"
+cask "warp"
 
 # whalebrew
 
