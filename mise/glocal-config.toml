@@ -4,7 +4,7 @@ node = "lts"
 deno = "latest"
 rust = "latest"
 dotnet = "8"
-python = "latest" # for other tools
+python = "latest"   # for other tools
 ruby = "latest"
 java = "openjdk-21"
 
@@ -29,8 +29,6 @@ azure = "latest"
 gcloud = "latest"
 firebase = "latest"
 
-duckdb = "latest"
-
 "gem:cfn-nag" = "latest"
 "pipx:cfn-lint" = "latest"
 "pipx:sceptre" = "latest"
@@ -54,6 +52,7 @@ usql = "latest"
 psqldef = "latest"
 mssqldef = "latest"
 "pipx:sqruff" = "latest"
+duckdb = "latest"
 
 github-cli = "latest"
 ghq = "latest"
@@ -63,7 +62,7 @@ hadolint = "latest"
 
 ollama = "latest"
 
-android-sdk	 = "latest"
+android-sdk = "latest"
 
 peco = "latest"
 just = "latest"
@@ -73,10 +72,12 @@ dasel = "latest"
 "npm:jsonata" = "latest"
 "pipx:httpie" = "latest"
 yq = "latest"
+"ubi:jqlang/jq" = "latest"
 go-jsonnet = "latest"
 "npm:cspell" = "latest"
 shellcheck = "latest"
 shfmt = "latest"
+taplo = "latest"
 pre-commit = "latest"
 checkmake = "latest"
 1password = "latest"
@@ -86,6 +87,7 @@ delta = "latest"
 zoxide = "latest"
 fzf = "latest"
 "aqua:slack.com/slack-cli" = "latest"
+fd = "latest"
 
 [settings]
 experimental = true
