@@ -1,0 +1,31 @@
+# common
+brew "make"
+brew "git"
+brew "gnu-sed"
+brew "grep"
+brew "wget"
+brew "telnet"
+brew "tree"
+brew "jq"
+brew "tmux"
+brew "fd"
+
+# sh
+brew "zsh"
+brew "zsh-completions"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+# brew "zsh-fast-syntax-highlighting"
+# TODO
+# brew "zsh-history-substring-search"
+# brew "zsh-async"
+# brew "zsh-nvm"
+# brew "zsh-vi-mode"
+# brew "zsh-256color"
+# brew "zsh-vi-mode"
+brew "starship"
+cask "font-hack-nerd-font"
+
+# infra
+# brew "tfnotify"
+# brew "tfrun"

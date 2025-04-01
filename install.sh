@@ -9,3 +9,5 @@ curl https://mise.run | sh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 bash -c update.sh
+
+aqua init

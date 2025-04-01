@@ -8,6 +8,8 @@ python = "latest" # for other tools
 ruby = "latest"
 java = "openjdk-21"
 
+aqua = "latest"
+
 golangci-lint = "latest"
 
 biome = "latest"
