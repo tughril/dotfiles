@@ -43,10 +43,12 @@ tfsec = "latest"
 
 pulumi = "latest"
 
+"sqlite" = "latest"
 "pipx:pgcli" = "latest"
 "pipx:mycli" = "latest"
 "pipx:litecli" = "latest"
 "pipx:iredis" = "latest"
+usql = "latest"
 psqldef = "latest"
 mssqldef = "latest"
 "pipx:sqruff" = "latest"
@@ -78,10 +80,10 @@ checkmake = "latest"
 1password = "latest"
 delta = "latest"
 "asdf:jimmidyson/asdf-upx" = "latest"
-usql = "latest"
 "pipx:tldr" = "latest"
 zoxide = "latest"
 fzf = "latest"
+"aqua:slack.com/slack-cli" = "latest"
 
 [settings]
 experimental = true

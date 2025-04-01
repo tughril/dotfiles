@@ -30,11 +30,6 @@ cask "font-hack-nerd-font"
 # brew "tfnotify"
 # brew "tfrun"
 
-# db
-brew "mysql-client"
-brew "libpq", link: true
-brew "sqlite3"
-
 cask "docker"
 cask "google-chrome"
 cask "firefox"

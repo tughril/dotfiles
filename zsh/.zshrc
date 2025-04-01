@@ -1,11 +1,6 @@
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
 
-alias g="git"
-alias awsume="source awsume"
-alias awsume-list="awsume -l"
-alias code="code-insiders"
-
 export PATH=$PATH:~/.bin
 
 if command -v gh >/dev/null 2>&1 && gh extension list | grep -q 'gh-copilot'; then
@@ -56,5 +51,18 @@ export HISTFILE=${HOME}/.zsh_history
 export HISTSIZE=1000
 export SAVEHIST=100000
 
-# Added by Windsurf
-export PATH="/Users/takashi/.codeium/windsurf/bin:$PATH"
+alias awsume="source awsume"
+alias awsume-list="awsume -l"
+alias code="code-insiders"
+alias psql="pgcli"
+alias mysql="mycli"
+alias g="git"
+alias gs="git status"
+alias gc="git commit"
+alias gco="git checkout"
+alias gp="git push"
+alias gps="git push"
+alias gpl="git pull"
+
+export PAGER="less -LRc --mouse"
+export LESS=" -LRc --mouse"
