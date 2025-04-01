@@ -16,6 +16,7 @@ fi
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+eval "$(zoxide init zsh)"
 
 # completions
 fpath+=~/.zfunc
@@ -47,6 +48,9 @@ function peco-ghq () {
 }
 zle -N peco-ghq
 bindkey '^]' peco-ghq
+
+zle -N zi
+bindkey '^z' zi
 
 export HISTFILE=${HOME}/.zsh_history
 export HISTSIZE=1000

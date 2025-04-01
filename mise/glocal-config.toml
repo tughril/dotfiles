@@ -81,6 +81,7 @@ delta = "latest"
 usql = "latest"
 "pipx:tldr" = "latest"
 zoxide = "latest"
+fzf = "latest"
 
 [settings]
 experimental = true
