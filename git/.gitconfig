@@ -18,3 +18,19 @@
 [credential "https://gist.github.com"]
 	helper =
 	helper = !gh auth git-credential
+[alias]
+    s = status
+	p = push
+	pl = pull
+	ps = push
+	c = commit
+	co = checkout
+	b = branch
+	a = add
+	d = diff
+	l = log --oneline --graph --decorate --all
+	ll = log --oneline --graph --decorate --all -p
+	st = stash
+	stl = stash list
+	stp = stash pop
+	sts = stash show -p
