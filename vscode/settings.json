@@ -28,13 +28,7 @@
   },
   "cSpell.ignoreWords": [
     "stepfunctions",
-    "takashi",
-    "rosbag",
-    "datahub",
-    "webauto",
-    "datasearch",
-    "dify",
-    "interactor"
+    "dify"
   ],
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
   "cline.chromeExecutablePath": "",

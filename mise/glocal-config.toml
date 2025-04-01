@@ -21,6 +21,8 @@ uv = "latest"
 
 aws-cli = "latest"
 "pipx:aws-sam-cli" = "latest"
+"pipx:awsume" = { version = "latest", uvx_args = "--with awsume-1password-plugin --with awsume-console-plugin" }
+"pipx:aws-sso-util" = "latest"
 azure = "latest"
 gcloud = "latest"
 firebase = "latest"
@@ -64,8 +66,6 @@ dasel = "latest"
 "pipx:httpie" = "latest"
 yq = "latest"
 go-jsonnet = "latest"
-"pipx:awsume" = { version = "latest", uvx_args = "--with awsume-1password-plugin" }
-"pipx:aws-sso-util" = "latest"
 "npm:cspell" = "latest"
 shellcheck = "latest"
 pre-commit = "latest"

@@ -3,4 +3,3 @@
 set -euo pipefail
 
 gh auth login
-gh auth setup-git
