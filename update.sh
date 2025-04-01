@@ -18,6 +18,7 @@ ln -sf $(pwd)/zsh/.zshrc ~/.zshrc
 mkdir -p ~/.zfunc
 poetry completions zsh > ~/.zfunc/_poetry
 gh completion -s zsh > ~/.zfunc/_gh
+op completion zsh > ~/.zfunc/_op
 
 # starship
 ln -sf $(pwd)/starship.toml ~/.config/starship.toml

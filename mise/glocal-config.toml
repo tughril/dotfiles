@@ -43,8 +43,13 @@ tfsec = "latest"
 
 pulumi = "latest"
 
+"pipx:pgcli" = "latest"
+"pipx:mycli" = "latest"
+"pipx:litecli" = "latest"
+"pipx:iredis" = "latest"
 psqldef = "latest"
 mssqldef = "latest"
+"pipx:sqruff" = "latest"
 
 github-cli = "latest"
 ghq = "latest"
@@ -54,10 +59,9 @@ hadolint = "latest"
 
 ollama = "latest"
 
-# TODO android-sdk	 = "latest"
+android-sdk	 = "latest"
 
 peco = "latest"
-# TODO make = "latest"
 just = "latest"
 vim = "latest"
 dasel = "latest"
@@ -68,10 +72,15 @@ yq = "latest"
 go-jsonnet = "latest"
 "npm:cspell" = "latest"
 shellcheck = "latest"
+shfmt = "latest"
 pre-commit = "latest"
 checkmake = "latest"
 1password = "latest"
 delta = "latest"
+"asdf:jimmidyson/asdf-upx" = "latest"
+usql = "latest"
+"pipx:tldr" = "latest"
+zoxide = "latest"
 
 [settings]
 experimental = true
