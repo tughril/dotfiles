@@ -1,5 +1,9 @@
 .PHONY: all clean test
 
+.PHONY: setup
+setup:
+	pre-commit install
+
 .PHONY: format
 format: sort-vscode-settings format-prettier format-sh format-toml
 
