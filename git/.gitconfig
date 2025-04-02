@@ -19,13 +19,14 @@
 	helper =
 	helper = !gh auth git-credential
 [alias]
-    s = status
+    s = status -s
 	p = push
 	pl = pull
 	ps = push
 	c = commit
 	co = checkout
-	b = branch
+	cb = checkout -b
+	b = branch -v
 	a = add
 	d = diff
 	l = log --oneline --graph --decorate --all

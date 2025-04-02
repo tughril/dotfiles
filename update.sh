@@ -55,3 +55,8 @@ done <"$(pwd)/vscode/cursor-only-extensions.txt"
 
 ln -sf "$(pwd)/vscode/settings.json" ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json
 ln -sf "$(pwd)/vscode/settings.json" ~/Library/Application\ Support/Cursor/User/settings.json
+ln -sf "$(pwd)/vscode/snippets" ~/Library/Application\ Support/Code\ -\ Insiders/User/snippets
+ln -sf "$(pwd)/vscode/snippets" ~/Library/Application\ Support/Cursor/User/snippets
+
+code-insiders --update-extensions
+cursor --update-extensions
