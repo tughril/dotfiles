@@ -52,8 +52,9 @@
     "type": "gutter"
   },
   "go.formatTool": "goimports",
-  "go.lintFlags": ["--fast"],
-  "go.lintTool": "golangci-lint",
+  // golangci-lint v2 is not supported yet
+  // "go.lintTool": "golangci-lint",
+  // "go.lintFlags": ["--fast-only"],
   "go.testOnSave": true,
   "go.toolsManagement.autoUpdate": true,
   "inlineChat.finishOnType": true,

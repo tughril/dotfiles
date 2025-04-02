@@ -8,6 +8,8 @@ python = "latest"   # for other tools
 ruby = "latest"
 java = "openjdk-21"
 
+"go:github.com/cweill/gotests/..." = "latest"
+
 aqua = "latest"
 
 golangci-lint = "latest"
@@ -68,7 +70,7 @@ peco = "latest"
 just = "latest"
 vim = "latest"
 dasel = "latest"
-"npm:git-trim" = "latest"
+"ubi:foriequal0/git-trim" = "latest"
 "npm:jsonata" = "latest"
 "pipx:httpie" = "latest"
 yq = "latest"
