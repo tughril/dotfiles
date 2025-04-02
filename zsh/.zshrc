@@ -38,16 +38,16 @@ complete -F _awsume awsume
 complete -o nospace -C terraform terraform
 complete -o nospace -C terragrunt terragrunt
 
-function peco-ghq () {
-  local selected_dir=$(ghq list -p | peco --prompt="repositories >" --query "$LBUFFER")
+function fzf-ghq () {
+  local selected_dir=$(ghq list | fzf --preview "ls -laTp $(ghq root)/{} | tail -n+4 | awk '{print \$9\"/\"\$6\"/\"\$7 \" \" \$10}'")
   if [ -n "$selected_dir" ]; then
-    BUFFER="cd ${selected_dir}"
+    BUFFER="cd $(ghq root)/${selected_dir}"
     zle accept-line
   fi
-  zle clear-screen
+  zle -R -c
 }
-zle -N peco-ghq
-bindkey '^]' peco-ghq
+zle -N fzf-ghq
+bindkey '^]' fzf-ghq
 
 zle -N zi
 bindkey '^z' zi
