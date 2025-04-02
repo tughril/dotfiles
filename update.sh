@@ -23,6 +23,7 @@ poetry completions zsh >~/.zfunc/_poetry
 gh completion -s zsh >~/.zfunc/_gh
 op completion zsh >~/.zfunc/_op
 mise completion zsh >~/.zfunc/_mise
+aqua completion zsh >~/.zfunc/_aqua
 
 # starship
 ln -sf "$(pwd)/starship.toml" ~/.config/starship.toml

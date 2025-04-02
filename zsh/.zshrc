@@ -13,8 +13,13 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval "$(zoxide init zsh)"
 
+# for zsh-completions
+chmod go-w $(brew --prefix)/share
+chmod -R go-w $(brew --prefix)/share/zsh
+
 # completions
 fpath+=~/.zfunc
+fpath+=$(brew --prefix)/share/zsh-completions
 autoload bashcompinit && bashcompinit # TODO: autoload -U +X bashcompinitのようなオプションがあるので調査
 autoload -Uz compinit && compinit
 complete -C aws_completer aws
