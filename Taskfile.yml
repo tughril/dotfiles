@@ -18,20 +18,9 @@ tasks:
       - mv .vscode/settings.json.tmp .vscode/settings.json
   format:
     deps:
-      - format-vscode-settings
       - format-prettier
       - format-sh
       - format-toml
-  format-vscode-settings:
-    dir: "{{.USER_WORKING_DIR}}"
-    vars:
-      temp_dir:
-        sh: |
-          mktemp -d
-    cmds:
-      - defer: rm -rf {{ .temp_dir }}
-      - cat vscode/settings.json | jq -S > {{ .temp_dir }}/vscode-settings.json
-      - mv {{ .temp_dir }}/vscode-settings.json .vscode/settings.json
   format-prettier:
     dir: "{{.USER_WORKING_DIR}}"
     cmds:

@@ -4,4 +4,4 @@ repos:
       - id: format
         name: format
         language: system
-        entry: echo "formatting"
+        entry: echo
