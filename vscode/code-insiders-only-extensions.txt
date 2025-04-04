@@ -1,2 +1,2 @@
- ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-keymap
 task.vscode-task

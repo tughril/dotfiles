@@ -59,3 +59,7 @@ tasks:
     dir: "{{.USER_WORKING_DIR}}"
     cmds:
       - shellcheck **/*.sh
+  dump-vscode-extensions:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - ./dump-vscode-extensions.sh
