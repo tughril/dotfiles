@@ -52,6 +52,8 @@ bindkey '^]' fzf-ghq
 zle -N zi
 bindkey '^z' zi
 
+function history-all { history -E 1 }
+
 export HISTFILE=${HOME}/.zsh_history
 export HISTSIZE=1000
 export SAVEHIST=100000
@@ -74,3 +76,8 @@ alias suggest-command="ghcs"
 
 export PAGER="less -LRc --mouse"
 export LESS=" -LRc --mouse"
+
+setopt auto_cd
+setopt share_history
+
+eval "$(mcfly init zsh)"

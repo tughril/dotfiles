@@ -4,13 +4,16 @@ node = "lts"
 deno = "latest"
 rust = "latest"
 dotnet = "8"
-python = "latest"   # for other tools
+python = ['latest', '3.10']
 ruby = "latest"
 java = "openjdk-21"
 
 "go:github.com/cweill/gotests/..." = "latest"
 
 aqua = "latest"
+ubi = "latest"
+
+"npm:@trunkio/launcher" = "latest"
 
 golangci-lint = "latest"
 
@@ -46,7 +49,7 @@ tfsec = "latest"
 pulumi = "latest"
 
 "sqlite" = "latest"
-"pipx:pgcli" = "latest"
+"pipx:pgcli" = { version = "latest", uvx_args = "--with psycopg_binary" }
 "pipx:mycli" = "latest"
 "pipx:litecli" = "latest"
 "pipx:iredis" = "latest"
@@ -66,14 +69,18 @@ ollama = "latest"
 
 android-sdk = "latest"
 
-just = "latest"
+act = "latest"
+usage = "latest"
+task = "latest"
 vim = "latest"
 dasel = "latest"
+difftastic = "latest"
 "ubi:foriequal0/git-trim" = "latest"
 "npm:jsonata" = "latest"
 "pipx:httpie" = "latest"
 yq = "latest"
 "ubi:jqlang/jq" = "latest"
+"ubi:cantino/mcfly" = "latest"
 go-jsonnet = "latest"
 "npm:cspell" = "latest"
 shellcheck = "latest"
@@ -89,6 +96,7 @@ zoxide = "latest"
 fzf = "latest"
 "aqua:slack.com/slack-cli" = "latest"
 fd = "latest"
+"npm:@sourcegraph/cody" = "latest"
 
 [settings]
 experimental = true

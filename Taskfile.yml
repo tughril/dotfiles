@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: "3"
+tasks:
+  setup:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - pre-commit install
+  sort-vscode-settings:
+    dir: "{{.USER_WORKING_DIR}}"
+    vars:
+      temp_dir:
+        sh: |
+          mktemp -d
+    cmds:
+      - defer: rm -rf {{ .temp_dir }}
+      - cat vscode/settings.json | jq -S > {{ .temp_dir }}/vscode-settings.json
+      - mv .vscode/settings.json.tmp .vscode/settings.json
+  format:
+    deps:
+      - format-vscode-settings
+      - format-prettier
+      - format-sh
+      - format-toml
+  format-vscode-settings:
+    dir: "{{.USER_WORKING_DIR}}"
+    vars:
+      temp_dir:
+        sh: |
+          mktemp -d
+    cmds:
+      - defer: rm -rf {{ .temp_dir }}
+      - cat vscode/settings.json | jq -S > {{ .temp_dir }}/vscode-settings.json
+      - mv {{ .temp_dir }}/vscode-settings.json .vscode/settings.json
+  format-prettier:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - prettier --write .
+  format-sh:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - pwd
+      - ls
+      - shfmt -w *.sh
+  format-toml:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - taplo format **/*.toml
+  brew-deps:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - brew deps --installed --tree
+  brew-deps-formula:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - brew deps --installed --tree --formula
+  brew-autoremove:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - brew autoremove
+  mise-list:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - mise list
+  lint:
+    dir: "{{.USER_WORKING_DIR}}"
+    deps:
+      - lint-sh
+  lint-sh:
+    dir: "{{.USER_WORKING_DIR}}"
+    cmds:
+      - shellcheck **/*.sh
