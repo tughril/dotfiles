@@ -25,5 +25,6 @@ cask "microsoft-word"
 cask "libreoffice"
 cask "adobe-acrobat-reader"
 cask "beekeeper-studio"
+cask "obsidian"
 cask "kindle"
 mas "LINE", id: 539883307

@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Suggest New Tools
+
+This repository has settings for tool managers or package managers.
+I want to know new tools for make my development environment better.
+The files below defines tools or package in my development. So never suggest something in the files.
+
+- `mise/glocal-config.toml`
+  A config toml for mise.
+- `brewfiles/cli/Brewfile`
+  A brewfile for homebrew. This defines libs and cli applications.
+- `brewfiles/gui/Brewfile`
+  A brewfile for homebrew. This defines gui applications.

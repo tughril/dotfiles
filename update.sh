@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 set -euo pipefail
 
@@ -24,6 +24,7 @@ gh completion -s zsh >~/.zfunc/_gh
 op completion zsh >~/.zfunc/_op
 mise completion zsh >~/.zfunc/_mise
 aqua completion zsh >~/.zfunc/_aqua
+task --completion zsh >~/.zfunc/_task
 golangci-lint completion zsh >~/.zfunc/_golangci-lint
 
 # starship
