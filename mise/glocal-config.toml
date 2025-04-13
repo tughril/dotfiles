@@ -63,7 +63,7 @@ github-cli = "latest"
 ghq = "latest"
 actionlint = "latest"
 
-hadolint = "latest"
+"ubi:hadolint/hadolint" = "latest"
 
 ollama = "latest"
 
@@ -76,6 +76,7 @@ vim = "latest"
 dasel = "latest"
 difftastic = "latest"
 "ubi:foriequal0/git-trim" = "latest"
+"go:github.com/dependabot/cli/cmd/dependabot" = "latest"
 "npm:jsonata" = "latest"
 "pipx:httpie" = "latest"
 yq = "latest"

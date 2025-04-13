@@ -81,3 +81,4 @@ setopt auto_cd
 setopt share_history
 
 eval "$(mcfly init zsh)"
+eval "$(uv generate-shell-completion zsh)"
