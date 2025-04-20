@@ -61,8 +61,6 @@ export SAVEHIST=100000
 alias awsume="source awsume"
 alias awsume-list="awsume -l"
 alias code="code-insiders"
-alias psql="pgcli"
-alias mysql="mycli"
 alias g="git"
 alias gs="git status"
 alias gc="git commit"
@@ -73,6 +71,8 @@ alias gpl="git pull"
 alias explain-command-tldr="tldr"
 alias explain-command-copilot="ghce"
 alias suggest-command="ghcs"
+alias ghmr="gh models run"
+alias get-commit-message="git diff | gh models run gpt-4.1-mini 'echo commit message following Conventional Commits. Never quote message.'"
 
 export PAGER="less -LRc --mouse"
 export LESS=" -LRc --mouse"
@@ -82,3 +82,4 @@ setopt share_history
 
 eval "$(mcfly init zsh)"
 eval "$(uv generate-shell-completion zsh)"
+

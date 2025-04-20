@@ -63,3 +63,11 @@ ln -sf "$(pwd)/vscode/snippets" ~/Library/Application\ Support/Cursor/User/snipp
 
 code-insiders --update-extensions
 cursor --update-extensions
+
+ln -sf "/usr/local/bin/psql" $(which pgcli)
+ln -sf "/usr/local/bin/mysql" $(which mycli)
+
+gh extension install github/gh-copilot
+gh extension upgrade gh-copilot
+gh extension install https://github.com/github/gh-models
+gh extension upgrade github/gh-models

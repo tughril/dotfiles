@@ -75,7 +75,6 @@ task = "latest"
 vim = "latest"
 dasel = "latest"
 difftastic = "latest"
-"ubi:foriequal0/git-trim" = "latest"
 "go:github.com/dependabot/cli/cmd/dependabot" = "latest"
 "npm:jsonata" = "latest"
 "pipx:httpie" = "latest"
@@ -99,6 +98,9 @@ fzf = "latest"
 "aqua:slack.com/slack-cli" = "latest"
 fd = "latest"
 "npm:@sourcegraph/cody" = "latest"
+"npm:@openai/codex" = "latest"
+"npm:@anthropic-ai/claude-code" = "latest"
+"pip:openai-whisper" = "latest"
 
 [settings]
 experimental = true

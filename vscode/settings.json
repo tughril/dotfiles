@@ -133,5 +133,6 @@
     "!ImportValue sequence",
     "!Select",
     "!Split"
-  ]
+  ],
+  "git.autofetch": true
 }

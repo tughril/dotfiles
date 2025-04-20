@@ -7,6 +7,9 @@ brew "wget"
 brew "telnet"
 brew "tree"
 brew "tmux"
+brew "git-trim"
+
+brew "libyaml" # for ruby
 
 # sh
 brew "zsh"
