@@ -56,6 +56,7 @@ pulumi = "latest"
 usql = "latest"
 psqldef = "latest"
 mssqldef = "latest"
+"pipx:pg_activity" = { version = "latest", extras = "psycopg" }
 "pipx:sqruff" = "latest"
 duckdb = "latest"
 
@@ -100,7 +101,7 @@ fd = "latest"
 "npm:@sourcegraph/cody" = "latest"
 "npm:@openai/codex" = "latest"
 "npm:@anthropic-ai/claude-code" = "latest"
-"pip:openai-whisper" = "latest"
+# "pipx:openai-whisper" = "latest"
 
 [settings]
 experimental = true

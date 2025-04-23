@@ -134,5 +134,6 @@
     "!Select",
     "!Split"
   ],
-  "git.autofetch": true
+  "git.autofetch": true,
+  "terminal.external.osxExec": "Warp.app"
 }
