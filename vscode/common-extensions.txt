@@ -16,6 +16,7 @@ golang.go
 hashicorp.hcl
 hashicorp.terraform
 hbenl.vscode-test-explorer
+idleberg.applescript
 kddejong.vscode-cfn-lint
 littlefoxteam.vscode-python-test-adapter
 ms-azuretools.vscode-docker

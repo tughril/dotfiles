@@ -1,2 +1,4 @@
+docker.docker
 ms-toolsai.jupyter-keymap
+rooveterinaryinc.roo-cline
 task.vscode-task
