@@ -18,7 +18,7 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # brew "zsh-fast-syntax-highlighting"
 # TODO
-# brew "zsh-history-substring-search"
+brew "zsh-history-substring-search"
 brew "starship"
 cask "font-hack-nerd-font"
 
