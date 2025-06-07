@@ -65,7 +65,6 @@
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
   "chat.promptFiles": true,
   "cline.chromeExecutablePath": "",
-  "cline.enableCheckpoints": false,
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
   "github.copilot.chat.generateTests.codeLens": true,
@@ -135,5 +134,6 @@
     "!Split"
   ],
   "git.autofetch": true,
-  "terminal.external.osxExec": "Warp.app"
+  "terminal.external.osxExec": "Warp.app",
+  "docker.extension.enableComposeLanguageServer": false
 }

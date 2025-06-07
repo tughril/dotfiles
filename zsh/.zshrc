@@ -2,6 +2,7 @@ eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
 
 export PATH=$PATH:~/.bin
+export PATH=$PATH:/opt/whalebrew/bin
 
 if command -v gh >/dev/null 2>&1 && gh extension list | grep -q 'gh-copilot'; then
   eval "$(gh copilot alias zsh)"
@@ -25,6 +26,7 @@ autoload -Uz compinit && compinit
 complete -C aws_completer aws
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
+eval "$(orbctl completion zsh)"
 _awsume() {
     local cur prev opts
     COMPREPLY=()

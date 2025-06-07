@@ -1,31 +1,35 @@
 [tools]
+### Languages
 go = "latest"
 node = "lts"
 deno = "latest"
 rust = "latest"
 dotnet = "8"
-python = ['latest', '3.10']
+python = ['latest', '3.10', '3.8']
 ruby = "latest"
 java = "openjdk-21"
 
-"go:github.com/cweill/gotests/..." = "latest"
-
 aqua = "latest"
 ubi = "latest"
+
+"go:github.com/cweill/gotests/..." = "latest"
 
 "npm:@trunkio/launcher" = "latest"
 
 golangci-lint = "latest"
 
+### js tools
 biome = "latest"
 "npm:pnpm" = "latest"
 "npm:prettier" = "latest"
 
+### python tools
 uv = "latest"
 "pipx:ruff" = "latest"
 "pipx:bandit" = "latest"
 "pipx:poetry" = "latest"
 
+### cloud tools
 aws-cli = "latest"
 "pipx:aws-sam-cli" = "latest"
 "pipx:awsume" = { version = "latest", uvx_args = "--with awsume-1password-plugin --with awsume-console-plugin" }
@@ -48,6 +52,7 @@ tfsec = "latest"
 
 pulumi = "latest"
 
+# Database tools
 "sqlite" = "latest"
 "pipx:pgcli" = { version = "latest", uvx_args = "--with psycopg_binary" }
 "pipx:mycli" = "latest"
@@ -60,9 +65,13 @@ mssqldef = "latest"
 "pipx:sqruff" = "latest"
 duckdb = "latest"
 
+### Github tools
 github-cli = "latest"
 ghq = "latest"
 actionlint = "latest"
+
+### api tools
+"npm:@typespec/compiler" = "latest"
 
 "ubi:hadolint/hadolint" = "latest"
 
@@ -70,6 +79,7 @@ ollama = "latest"
 
 android-sdk = "latest"
 
+"aqua:BurntSushi/ripgrep" = "latest"
 act = "latest"
 usage = "latest"
 task = "latest"
@@ -101,7 +111,11 @@ fd = "latest"
 "npm:@sourcegraph/cody" = "latest"
 "npm:@openai/codex" = "latest"
 "npm:@anthropic-ai/claude-code" = "latest"
+"npm:zx" = "latest"
 # "pipx:openai-whisper" = "latest"
+"pipx:deepdiff" = { version = "latest", extras = "cli" }
+maven = "3"
+
 
 [settings]
 experimental = true
