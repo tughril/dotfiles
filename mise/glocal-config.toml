@@ -32,6 +32,8 @@ terraformer = "latest"
 tflint = "latest"
 tfsec = "latest"
 
+"npm:@typespec/compiler" = "latest"
+
 pulumi = "latest"
 
 psqldef = "latest"

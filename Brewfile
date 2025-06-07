@@ -20,10 +20,11 @@ cask "font-hack-nerd-font"
 
 # db
 brew "mysql-client"
-brew "libpq", link: true
+# brew "libpq", link: true
 brew "sqlite3"
 
 cask "docker"
+cask "orbstack"
 cask "google-chrome"
 cask "iterm2"
 cask "slack"
