@@ -135,5 +135,8 @@
   ],
   "git.autofetch": true,
   "terminal.external.osxExec": "Warp.app",
-  "docker.extension.enableComposeLanguageServer": false
+  "docker.extension.enableComposeLanguageServer": false,
+  "amazonQ.suppressPrompts": {
+    "amazonQChatDisclaimer": true
+  }
 }

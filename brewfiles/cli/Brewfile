@@ -7,9 +7,11 @@ brew "wget"
 brew "telnet"
 brew "tree"
 brew "tmux"
-brew "git-trim"
+brew "zstd"
 
 brew "libyaml" # for ruby
+
+brew "libomp" # for some python packages like XGBoost
 
 # sh
 brew "zsh"

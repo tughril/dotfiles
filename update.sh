@@ -41,7 +41,6 @@ while read extension; do
 	[[ -z "$extension" || "$extension" =~ ^#.* ]] && continue
 	code-insiders --install-extension "$extension"
 	cursor --install-extension "$extension"
-	# TODO windsurf --install-extension "$extension"
 done <"$(pwd)/vscode/common-extensions.txt"
 
 while read extension; do

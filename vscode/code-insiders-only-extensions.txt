@@ -1,8 +1,1 @@
-docker.docker
-jinliming2.vscode-go-template
-ms-azuretools.vscode-containers
 ms-toolsai.jupyter-keymap
-ms-vscode.vscode-speech
-rooveterinaryinc.roo-cline
-task.vscode-task
-typespec.typespec-vscode

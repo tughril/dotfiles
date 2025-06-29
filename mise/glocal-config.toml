@@ -31,6 +31,7 @@ uv = "latest"
 
 ### cloud tools
 aws-cli = "latest"
+aws-sam-cli = "latest"
 "pipx:aws-sam-cli" = "latest"
 "pipx:awsume" = { version = "latest", uvx_args = "--with awsume-1password-plugin --with awsume-console-plugin" }
 "pipx:aws-sso-util" = "latest"
@@ -65,10 +66,13 @@ mssqldef = "latest"
 "pipx:sqruff" = "latest"
 duckdb = "latest"
 
+"go:github.com/minio/mc" = "latest"
+
 ### Github tools
 github-cli = "latest"
 ghq = "latest"
 actionlint = "latest"
+"npm:git-trim" = "latest"
 
 ### api tools
 "npm:@typespec/compiler" = "latest"
@@ -76,6 +80,7 @@ actionlint = "latest"
 "ubi:hadolint/hadolint" = "latest"
 
 ollama = "latest"
+"pipx:kaggle" = "latest"
 
 android-sdk = "latest"
 
@@ -113,9 +118,13 @@ fd = "latest"
 "npm:@anthropic-ai/claude-code" = "latest"
 "npm:zx" = "latest"
 # "pipx:openai-whisper" = "latest"
+"npm:@google/gemini-cli" = "latest"
 "pipx:deepdiff" = { version = "latest", extras = "cli" }
 maven = "3"
-
+"pipx:vcstool" = "latest"
+"ubi:tsonglew/dutis" = "latest"
+"npm:ccusage" = "latest"
 
 [settings]
 experimental = true
+idiomatic_version_file_enable_tools = []
