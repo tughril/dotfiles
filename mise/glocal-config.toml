@@ -12,14 +12,11 @@ java = "openjdk-21"
 aqua = "latest"
 ubi = "latest"
 
-"go:github.com/cweill/gotests/..." = "latest"
+"go:github.com/cweill/gotests/gotests" = "latest"
 
 "npm:@trunkio/launcher" = "latest"
 
 golangci-lint = "latest"
-
-### js tools
-biome = "latest"
 "npm:pnpm" = "latest"
 "npm:prettier" = "latest"
 
@@ -66,6 +63,9 @@ mssqldef = "latest"
 "pipx:sqruff" = "latest"
 duckdb = "latest"
 
+"ubi:jqlang/jq" = "latest"
+"biome" = "latest"
+
 "go:github.com/minio/mc" = "latest"
 
 ### Github tools
@@ -95,7 +95,6 @@ difftastic = "latest"
 "npm:jsonata" = "latest"
 "pipx:httpie" = "latest"
 yq = "latest"
-"ubi:jqlang/jq" = "latest"
 "ubi:cantino/mcfly" = "latest"
 "go:github.com/f/mcptools/cmd/mcptools" = "latest"
 go-jsonnet = "latest"
@@ -124,6 +123,7 @@ maven = "3"
 "pipx:vcstool" = "latest"
 "ubi:tsonglew/dutis" = "latest"
 "npm:ccusage" = "latest"
+"pipx:ultralytics" = "latest"
 
 [settings]
 experimental = true

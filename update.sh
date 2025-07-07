@@ -17,7 +17,9 @@ mise up
 brew bundle --file=./brewfiles/gui/Brewfile
 
 # zsh
-ln -sf "$(pwd)/zsh/.zshrc" ~/.zshrc
+ln -sf "$(pwd)/zsh/.zshrc" ~/.
+
+# zsh completions
 mkdir -p ~/.zfunc
 poetry completions zsh >~/.zfunc/_poetry
 gh completion -s zsh >~/.zfunc/_gh
