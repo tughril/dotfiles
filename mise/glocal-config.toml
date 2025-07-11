@@ -64,7 +64,6 @@ mssqldef = "latest"
 duckdb = "latest"
 
 "ubi:jqlang/jq" = "latest"
-"biome" = "latest"
 
 "go:github.com/minio/mc" = "latest"
 
@@ -113,8 +112,6 @@ fzf = "latest"
 "aqua:slack.com/slack-cli" = "latest"
 fd = "latest"
 "npm:@sourcegraph/cody" = "latest"
-"npm:@openai/codex" = "latest"
-"npm:@anthropic-ai/claude-code" = "latest"
 "npm:zx" = "latest"
 # "pipx:openai-whisper" = "latest"
 "npm:@google/gemini-cli" = "latest"
@@ -124,6 +121,10 @@ maven = "3"
 "ubi:tsonglew/dutis" = "latest"
 "npm:ccusage" = "latest"
 "pipx:ultralytics" = "latest"
+
+"npm:@openai/codex" = "latest"
+"npm:@anthropic-ai/claude-code" = "latest"
+"go:github.com/opencode-ai/opencode" = "latest"
 
 [settings]
 experimental = true
