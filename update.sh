@@ -41,15 +41,15 @@ ln -sf "$(pwd)/git/.gitconfig" ~/.gitconfig
 while read extension; do
 	# Skip empty lines and comments
 	[[ -z "$extension" || "$extension" =~ ^#.* ]] && continue
-	code-insiders --install-extension "$extension"
+	code --install-extension "$extension"
 	cursor --install-extension "$extension"
 done <"$(pwd)/vscode/common-extensions.txt"
 
 while read extension; do
 	# Skip empty lines and comments
 	[[ -z "$extension" || "$extension" =~ ^#.* ]] && continue
-	code-insiders --install-extension "$extension"
-done <"$(pwd)/vscode/code-insiders-only-extensions.txt"
+	code --install-extension "$extension"
+done <"$(pwd)/vscode/code-only-extensions.txt"
 
 while read extension; do
 	# Skip empty lines and comments
@@ -57,12 +57,12 @@ while read extension; do
 	cursor --install-extension "$extension"
 done <"$(pwd)/vscode/cursor-only-extensions.txt"
 
-ln -sf "$(pwd)/vscode/settings.json" ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json
+ln -sf "$(pwd)/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
 ln -sf "$(pwd)/vscode/settings.json" ~/Library/Application\ Support/Cursor/User/settings.json
-ln -sf "$(pwd)/vscode/snippets" ~/Library/Application\ Support/Code\ -\ Insiders/User/snippets
+ln -sf "$(pwd)/vscode/snippets" ~/Library/Application\ Support/Code/User/snippets
 ln -sf "$(pwd)/vscode/snippets" ~/Library/Application\ Support/Cursor/User/snippets
 
-code-insiders --update-extensions
+code --update-extensions
 cursor --update-extensions
 
 ln -sf "/usr/local/bin/psql" $(which pgcli)

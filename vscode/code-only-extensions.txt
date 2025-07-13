@@ -1,0 +1,4 @@
+anthropic.claude-code
+google.geminicodeassist
+ms-toolsai.jupyter-keymap
+rubbersheep.gi

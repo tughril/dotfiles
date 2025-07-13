@@ -1,7 +1,7 @@
 cask "google-chrome"
 cask "firefox"
 cask "microsoft-edge"
-cask "visual-studio-code@insiders"
+cask "visual-studio-code"
 cask "cursor"
 cask "iterm2"
 cask "warp"

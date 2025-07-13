@@ -62,7 +62,6 @@ export SAVEHIST=100000
 
 alias awsume="source awsume"
 alias awsume-list="awsume -l"
-alias code="code-insiders"
 alias g="git"
 alias gs="git status"
 alias gc="git commit"

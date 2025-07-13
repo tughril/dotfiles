@@ -9,7 +9,7 @@ This is a personal dotfiles repository that manages development environment conf
 - Shell environment (zsh)
 - Development tools and languages via mise (previously rtx/asdf)
 - Package managers (Homebrew, npm, pip/uv/pipx)
-- Code editors (VS Code Insiders, Cursor)
+- Code editors (VS Code, Cursor)
 - Terminal configurations (starship, tmux)
 - Git settings and aliases
 - AWS and cloud tools
@@ -51,7 +51,7 @@ This is a personal dotfiles repository that manages development environment conf
 
 ### Editor Settings
 
-- Use VS Code Insiders or Cursor as the primary code editor
+- Use VS Code or Cursor as the primary code editor
 - Dark theme preference
 - Strong preference for formatters and linters
 - Copilot is configured and used extensively
@@ -69,7 +69,7 @@ This is a personal dotfiles repository that manages development environment conf
 - **Task**: Task runner for this repository
 - **Homebrew**: Package manager for macOS
 - **GitHub CLI**: Command-line interface for GitHub with Copilot extensions
-- **VS Code Insiders/Cursor**: Primary code editors
+- **VS Code/Cursor**: Primary code editors
 
 ## When Making Suggestions
 

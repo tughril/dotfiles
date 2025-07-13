@@ -6,8 +6,8 @@ set -euo pipefail
 curl https://mise.run | sh
 
 # install homebrew
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-bash -c update.sh
+zsh -c update.sh
 
 aqua init
