@@ -12,6 +12,8 @@ java = "openjdk-21"
 aqua = "latest"
 ubi = "latest"
 
+"npm:@devcontainers/cli" = "latest"
+
 "go:github.com/cweill/gotests/gotests" = "latest"
 
 "npm:@trunkio/launcher" = "latest"

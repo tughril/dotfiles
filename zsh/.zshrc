@@ -88,3 +88,8 @@ function gi() { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$
 
 alias cp-llm-agent-gitignore="cp $HOME/ghq/github.com/tughril/dotfiles/llm-agent-templates/repository-gitignore/git-ignore .git/info/exclude"
 alias cp-claude-template="mkdir -p .claude && cp $HOME/ghq/github.com/tughril/dotfiles/llm-agent-templates/claude-template/settings.json .claude/settings.local.json"
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+
+# for golang warnings
+export GOFLAGS="-ldflags=-extldflags=-Wl,-ld_classic"
