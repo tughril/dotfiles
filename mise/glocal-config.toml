@@ -8,6 +8,7 @@ dotnet = "8"
 python = ['latest', '3.10', '3.8']
 ruby = "latest"
 java = "openjdk-21"
+bun = "latest"
 
 aqua = "latest"
 ubi = "latest"
@@ -84,6 +85,7 @@ ollama = "latest"
 "pipx:kaggle" = "latest"
 
 android-sdk = "latest"
+"pipx:parquet-cli" = "latest"
 
 "aqua:BurntSushi/ripgrep" = "latest"
 act = "latest"

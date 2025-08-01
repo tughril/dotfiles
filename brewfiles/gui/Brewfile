@@ -19,6 +19,7 @@ cask "onedrive"
 cask "chatgpt"
 cask "claude"
 cask "kiro"
+cask "podman-desktop"
 mas "Perplexity", id: 6714467650
 cask "microsoft-word"
 cask "libreoffice"
